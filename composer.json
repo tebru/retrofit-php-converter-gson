@@ -1,0 +1,23 @@
+{
+    "name": "tebru/retrofit-php-converter-gson",
+    "description": "Retrofit PHP converter using Gson",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nate Brunette",
+            "email": "n@tebru.net"
+        }
+    ],
+    "require": {
+        "tebru/gson-php": "dev-master"
+    },
+    "require-dev": {
+        "tebru/retrofit-php": "dev-v3-wip"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tebru\\RetrofitConverter\\Gson\\": "src/"
+        }
+    }
+}
