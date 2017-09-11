@@ -55,6 +55,7 @@ class GsonRequestBodyConverter implements RequestBodyConverter
             return $value;
         }
 
+        /** @noinspection ExceptionsAnnotatingAndHandlingInspection */
         return Psr7\stream_for($this->gson->toJson($value));
     }
 }

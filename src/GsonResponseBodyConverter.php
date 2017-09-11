@@ -54,6 +54,7 @@ class GsonResponseBodyConverter implements ResponseBodyConverter
             return $value;
         }
 
+        /** @noinspection ExceptionsAnnotatingAndHandlingInspection */
         return $this->gson->fromJson((string)$value, (string)$this->type);
     }
 }
