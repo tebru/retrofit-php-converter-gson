@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "beaa8c149b79b17fadbd5bbd640c39b9",
+    "content-hash": "f14f0ed55ccf29fcea81589d4bc26b26",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -384,16 +384,16 @@
         },
         {
             "name": "tebru/gson-php",
-            "version": "v0.4.1",
+            "version": "v0.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tebru/gson-php.git",
-                "reference": "831d4502332b330b86cc042379b15f9b9fca5295"
+                "reference": "5dee8755d269befd83bcf671ef61a22bff8a1f32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tebru/gson-php/zipball/831d4502332b330b86cc042379b15f9b9fca5295",
-                "reference": "831d4502332b330b86cc042379b15f9b9fca5295",
+                "url": "https://api.github.com/repos/tebru/gson-php/zipball/5dee8755d269befd83bcf671ef61a22bff8a1f32",
+                "reference": "5dee8755d269befd83bcf671ef61a22bff8a1f32",
                 "shasum": ""
             },
             "require": {
@@ -422,7 +422,7 @@
                 }
             ],
             "description": "Gson for PHP: Convert PHP objects to and from json",
-            "time": "2017-09-11T16:02:12+00:00"
+            "time": "2017-12-06T19:46:38+00:00"
         },
         {
             "name": "tebru/php-type",
@@ -864,7 +864,7 @@
                 }
             ],
             "description": "Retrofit for PHP - A type-safe PHP REST client.",
-            "time": "2017-09-04 06:52:11"
+            "time": "2017-09-04T06:52:11+00:00"
         }
     ],
     "aliases": [],
