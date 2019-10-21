@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "tebru/gson-php": "~0.6.1"
+        "tebru/gson-php": "~0.7.0"
     },
     "require-dev": {
         "tebru/retrofit-php": "dev-v3-wip"
